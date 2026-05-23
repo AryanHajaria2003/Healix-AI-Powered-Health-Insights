@@ -8,6 +8,7 @@ from spellchecker import SpellChecker
 import nltk
 nltk.download('stopwords', quiet=True)
 nltk.download('punkt', quiet=True)
+nltk.download('wordnet',quiet=True)
 # =========================
 # 🔹 RUN ONLY ONCE (THEN COMMENT)
 # =========================
@@ -138,3 +139,5 @@ def preprocess_dataset(df, text_col, label_col, save_path=None):
     print("✅ Preprocessing completed!")
 
     return df
+
+print("done backend/pp.py")
