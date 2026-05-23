@@ -454,9 +454,13 @@ if analyze:
         with st.spinner("Analyzing with NLP engine…"):
             try:
                 resp = requests.post(BACKEND_URL, json={"text": symptoms}, timeout=60)
-
+                
                 if resp.status_code == 200:
-                    d          = resp.json()
+                   d = resp.json()
+    
+                if not d.get("success"):
+                    st.error(f"⚠️ Backend error: {d.get('error', 'Unknown error')}")
+                else:
                     disease    = d["disease"]
                     confidence = d["confidence"]
                     cleaned    = d["cleaned_text"]
