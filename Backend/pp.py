@@ -5,7 +5,9 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from spellchecker import SpellChecker
-
+import nltk
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
 # =========================
 # 🔹 RUN ONLY ONCE (THEN COMMENT)
 # =========================
