@@ -719,8 +719,8 @@ if analyze:
                             "The chart above shows raw model confidence scores instead."
                         )
 
-                else:
-                    st.error(f"⚠️ Backend error: HTTP {resp.status_code}")
+                    else:
+                        st.error(f"⚠️ Backend error: HTTP {resp.status_code}")
 
             except requests.exceptions.ConnectionError:
                 st.error("🔌 Cannot reach backend at `http://127.0.0.1:8000`. Make sure FastAPI is running.")
