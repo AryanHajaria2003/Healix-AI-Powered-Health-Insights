@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from .pp import text_clean_fast
+from pp import text_clean_fast
 import joblib
 import numpy as np
 
