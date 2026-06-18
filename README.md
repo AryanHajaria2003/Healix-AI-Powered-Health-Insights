@@ -20,16 +20,15 @@ https://healix-ai-powered-health-insights.onrender.com
 
 ### Home Page
 
-![Home Page](images/homepage.png)
+![Home Page](home%20page%20.jpeg)
 
 ### Disease Prediction
 
-![Disease Prediction](images/prediction.png)
+![Disease Prediction](pred.jpeg)
 
 ### SHAP Explanation
 
-![SHAP Explanation](images/shap.png)
-
+![SHAP Explanation](shap.jpeg)
 ---
 
 ## Overview
