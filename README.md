@@ -1,6 +1,6 @@
 # Healix AI – AI Powered Health Insights
 
-![Healix AI Home](images/homepage.png)
+![Healix AI](images/homepage.png)
 
 Healix AI is an AI-powered healthcare web application that predicts potential diseases from user-described symptoms using Natural Language Processing (NLP) and Machine Learning. Users can enter symptoms in natural language, and the system analyzes the input to provide disease predictions along with explainable insights using SHAP.
 
@@ -20,15 +20,6 @@ https://healix-ai-powered-health-insights.onrender.com
 
 ### Home Page
 
-![Home Page](home%20page%20.jpeg)
-
-### Disease Prediction
-
-![Disease Prediction](pred.jpeg)
-
-### SHAP Explanation
-
-![SHAP Explanation](shap.jpeg)
 ---
 
 ## Overview
