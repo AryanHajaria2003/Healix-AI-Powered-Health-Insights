@@ -11,12 +11,8 @@ Healix AI is an AI-powered healthcare web application that predicts potential di
 https://healix-ai-powered-health-insights-an4njqqrxq8jcwxjgcqryr.streamlit.app/
 
 ### Backend API
+https://healix-ai-powered-health-insights.onrender.com
 
-PASTE_YOUR_FASTAPI_BACKEND_URL_HERE
-
-### API Documentation
-
-PASTE_YOUR_FASTAPI_BACKEND_URL_HERE/docs
 
 ---
 
